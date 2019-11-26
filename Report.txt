@@ -91,7 +91,7 @@ validation). We split the data with 70% Test data and 30% for Validation data. W
 
 5. We found the best state by finding a high likelihood and low BIC.We compared each state Likelihood and BIC. We avoided selecting a state which was overfitting our data.
 
-6. After conducting this test we compared the Normalized log likelihood for the train and validation set .We used Microsoft Excel to record the difference between the two Log Likelihood (Train and Validation) to better assist in choosing a state, as seen in Figure 11 below.
+6. We compared the Normalized log likelihood for the train and validation set. We used Microsoft Excel to record the difference between the two Log Likelihood (Train and Validation) to assist in choosing a state, as seen in Figure 11 below.
 
 7. After finding the best model with the best number of states we then used the “Train” data set been provided and compared the Normalized Log Likelihood to see if the train set had anomalies 
 
