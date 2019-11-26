@@ -16,13 +16,13 @@ Three categories of anomaly detection technique we implemented: Supervised anoma
 A couple of things such as Noise, Novelties and Outliers that has to be looked out for in a large data set. Because value may cause hindrance while analyzing the data. Noise is data that adds no value to data analysis such as random data that do not conform. Novelty are patterns in data that look anomalous at first but after further analysis they are incorporated into the normal model. Outliers is a point in the data set that is distant from the rest of the data.
 
 The Problem Description
-The problem we will be focusing on for this project is detecting unknown attacks using Anomaly-based IDS such as point anomalies, and contextual anomalies in individual household electric power consumption based on the data set being provided, and being able to find patterns on data instances which don’t conform with the normal behaviour. We will also be looking for early detection and warning about suspicious and potentially harmful anomalies such as the anomalies which mitigate the impact of attacks. Other problems we will be looking at when we are analyzing our data set include missing data, labels to indicate if an specific instance is an “anomaly” or “normal”. 
+The problem for this project is detecting unknown attacks using Anomaly-based IDS such as point anomalies, contextual anomalies in individual household electric power consumption based on the data set being provided, and being able to find patterns on data instances which don’t conform with the normal behaviour. We will also be looking for early detection and warning about suspicious and potentially harmful anomalies such as the anomalies which mitigate the impact of attacks. Other problems we will be looking at when we are analyzing our data set include missing data, labels to indicate if an specific instance is an “anomaly” or “normal”. 
 
-Electric power grid is very vulnerable to the cyber attacks, by working on the problems described we can reduce and produce warning about suspicious attacks to avoid physical damages which can affect human resources.
+Electric power grid is very vulnerable to the cyber attacks. By working on the problems described, we can reduce and produce warning about suspicious attacks to avoid physical damages which can affect human resources.
 
 The Methodology used for solving the problem
-1.	Understanding the Problem Scope
-2.	Understanding the features in the data set.
+1.	Finding the Problem Scope
+2.	Finding the features in the data set.
 3.	Splitting the Data set( Into Windows)
 4.	Exploring the Data set (Min, Max, Standard Deviation, Mean, Median,Correlation)
 5.	Anomaly Detection :
