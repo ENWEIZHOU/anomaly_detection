@@ -81,7 +81,7 @@ To detect outlier in our data set, we determined the min and max value in our tr
 The implementation of the HMM model was challenging, and time consuming. We wanted to have about 5 different models, and we achieved this by selecting one weekend day in the winter and summer, and one weekday in the summer as our sample data. We focused on three different time periods which were 6:00PM-11:59PM for summer and winter, and in the morning from 8:00AM-5:59PM for winter, and 6:00am-5:59pm in the Summer. The reasons we picked this time window was based on the pattern trends from the data exploration section of our study.
 
 1. We first did a cross validation of our Train Data set and split it into two sets ( Train and 
-validation). We split the data with 70% Test data and 30% for Validation data. Furthermore, we took extra precaution when splitting this data to make sure we didn’t have one day of data being split between the two sets, as this is a time series data.
+validation). We split the data with 70% Test data and 30% for Validation data. We took extra precaution when splitting this data to avoid one day of data being split between the two sets.
 
 2. We created a Test Model Function which was left overnight to test ranging from 2 states to 17. It recorded the Log Likelihood, BIC of the Train set and Log Likelihood of the validation set. The summary gave us the BIC of each of the states for the Train Set.
 
