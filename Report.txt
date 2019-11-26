@@ -4,7 +4,7 @@ This paper demonstrates and describes some methods related to concepts and techn
 Introduction
 The increasing number of cyberattacks causes considerable damage for finance and physics that influences our lives and business badly. Physical harm, which is worst case, such as the critical infrastructures, which refers to water management systems, electric power grids, etc. The electrical power grid includes variety of power consumption and the household power consumption is a part of it.
 
- According to Nguyen and Nahrstedt, because there have been accidental damages on the electric power grid and took a lot of time to be repaired. It shows that it is a very serious problem if those were attacks instead of the accidents. It would be hard to distinguish if the system is malfunctioning or there has been a virus [7]. Once they are being target, it even threaten human safety ultimately. 
+Nguyen and Nahrstedt suggests accidental damages on the electric power grid and took a lot of time to be repaired, which shows that it is a very serious problem if those were attacks instead of the accidents. It is hard to distinguish if the system is malfunctioning or there has been a virus [7]. Malfunctioning and virus even threaten human safety ultimately.. 
 
 Generally in cybersecurity, analysis is based on finding abnormal data called anomaly. By given the household power consumption data file from the electrical power grid, it is crucial that to seek the abnormal power consumption at a specific time or in a duration defined as anomaly and analyze reasons causing these anomalies over different contexts such as peak period and accident and also spread warnings about until being fixed.
 
