@@ -89,7 +89,7 @@ validation). We split the data with 70% Test data and 30% for Validation data. W
 
 4.To normalize the Log Likelihood results, we divided the result for the train and validation by the number of observations that were included in each result. The rationale behind normalizing the log likelihood is because the pattern length of each observation is different, and the average is a more accurate result when deciding the train and validation and also the train and test.
 
-5. The way we achieved in finding the best state was by finding a high likelihood and low BIC.We compared each state Likelihood and BIC and made sure we avoided selecting a state which was overfitting our data.
+5. We found the best state by finding a high likelihood and low BIC.We compared each state Likelihood and BIC. We avoided selecting a state which was overfitting our data.
 
 6. After conducting this test we compared the Normalized log likelihood for the train and validation set .We used Microsoft Excel to record the difference between the two Log Likelihood (Train and Validation) to better assist in choosing a state, as seen in Figure 11 below.
 
