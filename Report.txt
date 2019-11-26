@@ -51,7 +51,7 @@ Sub Metering 2: refers the power consumption of the type of appliances related t
 Sub metering 3: are the electric heating system as air-conditioner and water heater.[8]
 
 3. Splitting the Data
-We created functions to extract (Months, Days, Years, Minute and Hours) which helped us to split our date and time into new columns .This was the most challenging part,as was we needed to understand the different data types (Classes of the fields in R) and how to convert that to a datatype which can be used for extracting records from the data set. After adding extra columns which were defined by the new functions that we made, it made it easy to split the data. As a group we decided to split the data into seasons ,and two different time windows (Summer, Winter and Spring) which we defined as;
+Functions (Months, Days, Years, Minute and Hours) to extract data, which helped us to split our date and time into new columns .This was the most challenging part, as was we needed to understand the different data types (Classes of the fields in R Language) and how to convert to a datatype which can be used for extracting records from the data set. After adding extra columns defined by extracting function, it made it easy to split the data. We decided to split the data into seasons, and two different time windows (Summer, Winter and Spring) which we defined as;
 ●	Summer (May-August )
 		Summer Evening (6:00PM- 11:59PM)
 		Summer Day (6:00AM- 5:59PM)
@@ -61,7 +61,7 @@ We created functions to extract (Months, Days, Years, Minute and Hours) which he
 ●	Spring(January-April)
 		Spring Day (8:00 AM - 5:59PM)
 		Spring Evening (6:00PM-11:59PM)
-The authors of this project also explored different windows in the season such as Monday-Friday and Saturday-Sunday in the Summer, as the patterns of Monday- Friday were similar, and the pattern for saturday was slightly different to sunday.
+The authors of this project explored different windows in the season such as Monday-Friday and Saturday-Sunday in the Summer, as the patterns of Monday- Friday were similar, and the pattern for saturday was slightly different to sunday.
 4. Exploring the Data set
 We read an article about power demand throughout a day in the New England Region on U.S. Energy Information Administration website [1], we determined to split the data based on the chart seen in Figure 2. From Figure 2, we can see that the peak demand was between 6:30 PM-7:00 PM so we made sure to include those datapoint when exploring the data. Since the peak demand was during the 6:30 PM time period, we decided to extract the after work hours to do further analysis. We choose after work hour as 6:00PM-11:59PM assuming that this period would lead to the highest power consumption with everyone being home after work.
 
