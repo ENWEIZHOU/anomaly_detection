@@ -100,7 +100,7 @@ In the sections below we will describe the solutions we got after using the Movi
 Point Anomalies Result 
 
 Min-Max (Outlier Detection)
-The Feature we picked for this was global active power and our rationale behind this is because it represents the true actual power. We also found during the data exploration that the test dataset had a lower min compared to the train dataset hence, we have more anomalies that were less than the min therefore, the authors believed it would be a good idea to explore this.
+The Feature we picked for this was global active power. The rationale is that it represents the true actual power. We found during the data exploration that the test dataset had a lower min compared to the train dataset hence, we have more anomalies that were less than the min therefore, the authors believed it would be a good idea to explore this.
 
 Moving Average
 The results below used to move average technique. We used the train set to find the anomalies as it had more data, and it can analyze if our function was working correctly.  The feature we used for the Moving Average was the global active power, as we found this the most useful feature of the dataset. We used the train data for this section only. From Figure 14, which illustrates Anomalies between Monday-Friday in the Summer, we can see that between 7:00AM-7:59PM there were over 200 anomalies, and between 8:00 PM-8:59 PM and 10:00PM-10:59 PM with about 150 anomalies. In Figure 15, the normal data is consistent between Monday-Friday. The Monday-Friday Dataset consisted of 125280 observations and the Saturday and Sunday consisted of 5180 observations.
