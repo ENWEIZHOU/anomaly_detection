@@ -83,11 +83,11 @@ The implementation of the HMM model was challenging, and time consuming. We want
 1. We first did a cross validation of our Train Data set and split it into two sets ( Train and 
 validation). We split the data with 70% Test data and 30% for Validation data. We took extra precaution when splitting this data to avoid one day of data being split between the two sets.
 
-2. We created a Test Model Function which was left overnight to test ranging from 2 states to 17. It recorded the Log Likelihood, BIC of the Train set and Log Likelihood of the validation set. The summary gave us the BIC of each of the states for the Train Set.
+2. We created a Test Model Function which was left overnight to test ranging from 2 states to 17. It recorded the Log Likelihood, BIC of the Train set and Log Likelihood of the validation set. The summary indicates the BIC of each of the states for the Train Set.
 
 3. We put the numbers into an excel spreadsheet to start comparing our values and finding the best state, as seen in Figure 12 below.
 
-4.To Normalize the Log Likelihood results we divided the result for the train and validation by the number of observations that were included in each result. The rationale behind normalizing the log likelihood is because the pattern length of each observation is different, and getting the average gives you a more accurate result when deciding the train and validation and also the train and test.
+4.To normalize the Log Likelihood results, we divided the result for the train and validation by the number of observations that were included in each result. The rationale behind normalizing the log likelihood is because the pattern length of each observation is different, and the average is a more accurate result when deciding the train and validation and also the train and test.
 
 5. The way we achieved in finding the best state was by finding a high likelihood and low BIC.We compared each state Likelihood and BIC and made sure we avoided selecting a state which was overfitting our data.
 
